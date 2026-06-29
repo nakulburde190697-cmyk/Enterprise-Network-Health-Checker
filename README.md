@@ -3,12 +3,8 @@
 ## Overview
 
 Enterprise Network Health Checker is a Python-based network automation project that evaluates the health of Cisco Nexus switches using predefined health rules.
-
 The application reads device information from a JSON inventory, checks CPU utilization, memory utilization, temperature, and reachability status, then generates both a console health report and a timestamped CSV report.
-
 This project demonstrates Python programming, modular application design, JSON parsing, CSV report generation, and Git version control.
-
----
 
 ## Features
 
@@ -28,11 +24,8 @@ This project demonstrates Python programming, modular application design, JSON p
 * CSV
 * Git
 
----
-
 ## Project Structure
 
-```text
 Enterprise-Network-Health-Checker/
 │
 ├── main.py
@@ -54,11 +47,8 @@ Enterprise-Network-Health-Checker/
 | Temperature = High   | CRITICAL |
 | Status = Unreachable | DOWN     |
 
----
-
 ## Sample Output
 
-```text
 Health Summary
 
 Healthy Devices : 1
@@ -66,9 +56,6 @@ Warning Devices : 0
 Critical Devices : 1
 Down Devices : 1
 Total Devices : 3
-```
-
----
 
 ## Future Improvements
 
