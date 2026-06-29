@@ -1,0 +1,40 @@
+{
+    "devices": [
+        {
+            "hostname": "N9K-DC1",
+            "management_ip": "10.10.10.1",
+            "version": "10.3(8)",
+            "model": "Nexus 93180YC-FX3",
+            "serial": "FOX1234ABC",
+            "site": "Mumbai DC",
+            "cpu": 18,
+            "memory": 42,
+            "temperature": "Normal",
+            "status": "Reachable"
+        },
+        {
+            "hostname": "N9K-DC2",
+            "management_ip": "10.10.10.2",
+            "version": "10.3(7)",
+            "model": "Nexus 93180YC-FX3",
+            "serial": "FOX5678XYZ",
+            "site": "Mumbai DC",
+            "cpu": 92,
+            "memory": 94,
+            "temperature": "High",
+            "status": "Reachable"
+        },
+        {
+            "hostname": "N9K-DC3",
+            "management_ip": "10.10.10.3",
+            "version": "10.3(8)",
+            "model": "Nexus 93180YC-FX3",
+            "serial": "FOX9012LMN",
+            "site": "Nagpur DC",
+            "cpu": 25,
+            "memory": 38,
+            "temperature": "Normal",
+            "status": "Unreachable"
+        }
+    ]
+}
